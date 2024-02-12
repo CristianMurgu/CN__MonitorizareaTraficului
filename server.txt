@@ -1,0 +1,9 @@
+CREATE TABLE Map (id int NOT NULL, street_name text NOT NULL, speed_limit int NOT NULL, event float DEFAULT 0.0);
+INSERT INTO Map (id, street_name, speed_limit) VALUES (1, 'Rediu', 50);
+INSERT INTO Map (id, street_name, speed_limit) VALUES (2, 'Lazar', 30);
+INSERT INTO Map (id, street_name, speed_limit) VALUES (3, 'Canta', 60);
+INSERT INTO Map (id, street_name, speed_limit) VALUES (4, 'Drumu', 50);
+INSERT INTO Map (id, street_name, speed_limit) VALUES (5, 'Pacurari', 45);
+INSERT INTO Map (id, street_name, speed_limit) VALUES (6, 'Militari', 40);
+SELECT * FROM Map;
+

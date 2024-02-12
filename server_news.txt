@@ -1,0 +1,7 @@
+CREATE TABLE News (id int NOT NULL, weather text NOT NULL, sport text NOT NULL, gas_prices text NOT NULL);
+INSERT INTO News (id, weather, sport, gas_prices) VALUES (1, 'Temp: 26 degrees Condition: sunny', 'Roumania wins the Drinking World Cup', 'Petrom(gas: 6.48 and diesel: 7.68)');
+INSERT INTO News (id, weather, sport, gas_prices) VALUES (2, 'Temp: 19 degrees Condition: cloudy', 'Poli Iasi beated a homeless guy instead of Barcelona', 'Petrom(gas: 6.76 and diesel: 7.97)');
+INSERT INTO News (id, weather, sport, gas_prices) VALUES (3, 'Temp: 23 degrees Condition: raining', 'Messi went bankrupt because of his addiction to crack cocaine', 'Petrom(gas: 6.86 and diesel: 8.03)');
+INSERT INTO News (id, weather, sport, gas_prices) VALUES (4, 'Temp: 30 degrees Condition: foggy', 'Someone got killed in an Esport competition with a keyboard', 'Petrom(gas: 6.58 and diesel: 7.78)');
+INSERT INTO News (id, weather, sport, gas_prices) VALUES (5, 'Temp: 38 degrees Condition: yes', 'New cutting edge solution for blinking faster', 'Petrom(gas: 7.08 and diesel: 8.28)');
+SELECT * FROM News;
